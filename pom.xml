@@ -9,19 +9,7 @@
 
   <name>CustomAnnotationDemo</name>
   <url>http://maven.apache.org</url>
-  <plugins>
-    <plugin>
-    <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.7</version>
-                <configuration>
-                    <formats>
-                        <format>xml</format>
-                    </formats>
-                </configuration>
-    </plugin>
-  </plugins>
-
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
